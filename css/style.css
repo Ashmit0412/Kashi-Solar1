@@ -2189,8 +2189,9 @@ body {
 @media (max-width: 768px) {
 
     .hero {
-        width: 100%;
-        overflow: hidden;
+        min-height: auto;
+        padding-top: 45px;
+        padding-bottom: 30px;
     }
 
     .hero .container {
@@ -2287,6 +2288,20 @@ body {
         max-width: 100%;
         overflow-wrap: break-word;
         word-wrap: break-word;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .site-header {
+        padding: 12px 18px;
+    }
+
+    .logo img {
+        width: 145px;
+        max-width: 45vw;
+        height: auto;
     }
 
 }
